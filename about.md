@@ -1,4 +1,5 @@
 @def title = "About"
+
 # Education
 
 - B.S. Electrical Engineering with Distinction, Minor in Mathematics, Stanford University Class of 2016
