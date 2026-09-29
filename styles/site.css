@@ -1,0 +1,14 @@
+/* Start here — full layout control lives in this file and in
+   custom HTML templates (format: html: template:). */
+
+.quarto-title-banner {
+  padding-bottom: 0.5em;
+}
+
+body {
+  max-width: 56rem;
+}
+
+figure img {
+  border-radius: 6px;
+}

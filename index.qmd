@@ -1,0 +1,10 @@
+---
+title: "Mark Nishimura"
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; url=/himura/">
+<script>window.location.replace("/himura/");</script>
+```
+
+The homepage lives at [/himura/](/himura/).

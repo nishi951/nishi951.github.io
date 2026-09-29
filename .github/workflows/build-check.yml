@@ -1,0 +1,22 @@
+name: Build Check
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - run: quarto add marimo-team/quarto-marimo
+      - run: quarto render

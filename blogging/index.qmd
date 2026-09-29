@@ -1,0 +1,11 @@
+---
+title: "Blogging"
+listing:
+  contents:
+    - "*.md"
+    - "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---

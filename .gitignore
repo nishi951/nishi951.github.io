@@ -1,5 +1,11 @@
-__site/
 .DS_Store
-franklin
-franklin.pub
+_site/
+.quarto/
+_freeze/
+.env/
+.venv/
 node_modules/
+
+/.quarto/
+**/*.quarto_ipynb
+.internal/

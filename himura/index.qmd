@@ -1,0 +1,21 @@
+---
+title: "Mark Nishimura"
+---
+
+![Portrait of Mark Nishimura](assets/minimal-mistakes/mark.jpeg){width=200px fig-align="left"}
+
+Ph.D. in Electrical Engineering, Stanford University. My main research
+interests include deep learning for 3D vision, time-of-flight imaging,
+and uncertainty estimation.
+
+- **Email**: markn1 at stanford dot edu
+- **GitHub**: <https://github.com/nishi951>
+
+## News
+
+- September 2026: This site is back online, rebuilt with
+  [Quarto](https://quarto.org). I'll be writing about [torch-named-linops](https://torch-named-linops.dev/)
+  and other things on the [blog](../blogging/).
+- August 2020: I presented [our paper](https://www.computationalimaging.org/publications/single_spad/) on disambiguating
+  monocular depth estimation with a single transient at ECCV 2020.
+- June 2020: I'm interning with the Camera and Photos team at Apple this summer.

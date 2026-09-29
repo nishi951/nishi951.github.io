@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets
+
+website:
+  title: "Mark Nishimura"
+  site-url: https://markn.is
+  description: "Personal site of Mark Nishimura"
+  open-graph: true
+  navbar:
+    left:
+      - text: "Home"
+        href: himura/index.qmd
+      - text: "Blog"
+        href: blogging/index.qmd
+      - text: "Publications"
+        href: published/index.qmd
+      - text: "About"
+        href: about/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/nishi951
+
+format:
+  html:
+    theme: cosmo
+    css: styles/site.css
+    favicon: assets/favicon.png
+    canonical-url: true
