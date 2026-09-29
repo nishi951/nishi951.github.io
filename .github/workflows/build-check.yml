@@ -18,5 +18,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
       - uses: quarto-dev/quarto-actions/setup@v2
-      - run: quarto add marimo-team/quarto-marimo
+      - run: quarto add --no-prompt marimo-team/quarto-marimo
       - run: quarto render
